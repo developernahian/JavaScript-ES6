@@ -46,4 +46,4 @@ for(let i =0; i<10; i++){
     const num = i;// but nam er valu change howa sotteo const use korechi, karon eta block er moddhe kaz hocche. block theke loop ghure block theke ber howar por num er valu refrest hye jai. tai block er moddhe const koreo porblem nai jodi seta loop ghure. tobe let use kora jai and const o use kora jai ekhane
     sum = sum + num
 }
-console.log(sum)
+
