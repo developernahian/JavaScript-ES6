@@ -1,3 +1,7 @@
+// keys => ES5
+// values => ES5
+// entries => ES6
+
 // color => key/porperty AND color => value
 const glass = {
     name: 'glass',

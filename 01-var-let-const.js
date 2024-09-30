@@ -47,3 +47,17 @@ for(let i =0; i<10; i++){
     sum = sum + num
 }
 
+
+
+/*
+IMPORTANT: example of block scope`
+function a(i, j){
+    const sum = i + j + k
+    return sum
+}
+const k = 3
+const result = a(1,2)
+console.log(result)//output: 6
+
+console.log(sum)//ERROR
+*/
