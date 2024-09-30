@@ -1,3 +1,7 @@
+// Map return kore
+// forEach return kore na
+
+
 //map==> loops through each element of the array and do the operation that you passed in the call back function and hold the result from each operation in an array and finally returns you the new array
 
 const numbers = [1,2,3,4,5]
