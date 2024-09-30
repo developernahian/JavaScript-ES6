@@ -25,6 +25,7 @@ const result2 = numbers.forEach(num => {
 
 const result3 = numbers.forEach(num => console.log(num * 2))
 /*
+output
 2
 4
 6
