@@ -31,6 +31,8 @@ console.log(selected4)//OUTPUT: [ 72 ]
 
 
 
+console.log('-------------------')
+
 //filter whose name has more than 4 character
 const friends = ['Tommy', 'John', 'Peter', 'Sam']
 const lengthUp4 = friends.filter(frnd => frnd.length > 4)
@@ -42,7 +44,7 @@ console.log(oddFriends)//output: [ 'Tommy', 'Peter', 'Sam' ]
 
 
 
-
+console.log('-------------------------------')
 
 
 const students = [
