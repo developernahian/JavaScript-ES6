@@ -1,6 +1,8 @@
 // IMPORTANT: explore kora hoyni.
 // in future i should explore more
 
+// similar object make korar jonno class use kora hoy. 
+
 /*
 In JavaScript, a class is a blueprint for creating objects. It encapsulates data and functions (called methods) that operate on that data. Classes were introduced in ES6 (ECMAScript 2015) and provide a cleaner, more concise way to create object-oriented programs.
 */
