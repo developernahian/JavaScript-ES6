@@ -52,3 +52,15 @@ console.log(length)//output: [ 3, 4, 5, 3 ]
 //find first letter of each friend
 const firstLetter = friends.map(frnd => frnd[0])
 console.log(firstLetter)//output: [ 'T', 'J', 'P', 'S' ]
+
+
+//find brand name
+const products = [
+    {name: 'laptop', price: 3200, brand: 'lenovo', color: 'silver'},
+    {name: 'phone', price: 5000, brand: 'iphone', color: 'green'},
+    {name: 'watch', price: 123, brand: 'casio', color: 'gray'},
+    {name: 'camera', price: 4300, brand: 'canon', color: 'black'},
+]
+
+const brands = products.map(producttt => producttt.brand);
+console.log(brands);//output: [ 'lenovo', 'iphone', 'casio', 'canon' ]
