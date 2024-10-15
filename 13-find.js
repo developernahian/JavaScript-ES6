@@ -1,3 +1,11 @@
+/*
+filter: condition dewar por condition fulfill korle shei value gulo return kore
+find:   condition dewar por condition fulfill korle only first value ta return kore
+*/
+
+//IMPORTANT: filter korle array array dibe and find korle first value ta return kore
+
+
 //In JavaScript, the filter() method creates a new array with all elements that pass a test provided by a function. It doesn’t modify the original array but returns a new one with the filtered elements.
 
 //filter selects elements based on a condition and returns an array with the elements that fulfilled the condition

@@ -1,3 +1,10 @@
+/*
+filter: condition dewar por condition fulfill korle shei value gulo return kore
+find:   condition dewar por condition fulfill korle only first value ta return kore
+*/
+
+//IMPORTANT: filter korle array array dibe and find korle first value ta return kore
+
 //In JavaScript, the filter() method creates a new array with all elements that pass a test provided by a function. It doesn’t modify the original array but returns a new one with the filtered elements.
 
 //filter selects elements based on a condition and returns an array with the elements that fulfilled the condition
@@ -59,4 +66,36 @@ const students = [
   
   console.log(passingStudents);
   // Output: [{ name: 'Alice', grade: 85 }, { name: 'Bob', grade: 92 }]
+
+
+
+  console.log('-------------------------------')
   
+  const products = [
+    {name: 'laptop', price: 3200, brand: 'lenovo', color: 'silver'},
+    {name: 'phone', price: 5000, brand: 'iphone', color: 'green'},
+    {name: 'watch', price: 123, brand: 'casio', color: 'gray'},
+    {name: 'camera', price: 4300, brand: 'canon', color: 'black'},
+]
+//je nam er moddhe t ache ogulo print korbe
+const specificName = products.filter(p => p.name.includes('t'));
+console.log(specificName)
+/*
+output:
+[
+  { name: 'laptop', price: 3200, brand: 'lenovo', color: 'silver' },
+  { name: 'watch', price: 123, brand: 'casio', color: 'gray' }
+]
+*/  
+
+// Filter and print product names that contain the letter "t"
+products.forEach(product => {
+  if (product.name.includes('t')) {
+      console.log(product.name);
+  }
+});
+/*
+output:
+laptop
+watch
+*/
