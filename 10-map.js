@@ -54,6 +54,8 @@ const firstLetter = friends.map(frnd => frnd[0])
 console.log(firstLetter)//output: [ 'T', 'J', 'P', 'S' ]
 
 
+console.log('--------map exapmle part 3-----------')
+
 //find brand name
 const products = [
     {name: 'laptop', price: 3200, brand: 'lenovo', color: 'silver'},
