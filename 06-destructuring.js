@@ -1,3 +1,6 @@
+//Array and Object Destructuring
+/////////////////////////////////////
+
 const actor = {
     name: 'Tom Cruise',
     age: 40,
@@ -102,6 +105,7 @@ const [first2, second2, ...rest] = number3;
 console.log(first2);  // 1
 console.log(second2); // 2
 console.log(rest);   // [3, 4, 5]
+
 
 
 // example (6) Nested Destructuring
